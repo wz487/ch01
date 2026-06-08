@@ -1,4 +1,4 @@
-package oss_1;
+
 
 import java.awt.*;
 import java.awt.event.*;
@@ -82,7 +82,7 @@ public class oss {
         f2.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         f2.setLayout(new BorderLayout());
 
-        // 菜单栏
+        
         JMenuBar menuBar = new JMenuBar();
         JMenu customerMenu = new JMenu("고객");
         JMenu productMenu = new JMenu("상품");
@@ -577,7 +577,7 @@ public class oss {
             }
         });
 
-        // 用户管理
+        
         JPanel userPanel = new JPanel(new BorderLayout());
         DefaultListModel<String> userListModel = new DefaultListModel<>();
         for (User u : userManager.getUsers()) {
@@ -873,3 +873,4 @@ public class oss {
             }
         });
     }
+}
