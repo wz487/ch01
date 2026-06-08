@@ -156,7 +156,7 @@ public class oss {
         f2.setVisible(true);
     }
 
-    // ------------------- 功能实现 -------------------
+   
 
     private void confirmCustomerInfo() {
         if (isAdmin) {
@@ -616,7 +616,7 @@ public class oss {
         adminFrame.setVisible(true);
     }
 
-    // ------------------- 内部数据类 -------------------
+   
     static class Product implements Serializable {
         private int id;
         private String name;
